@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Abbey-Gayle Haughton | Website Portfolio">
+    <title>Abbey-Gayle Haughton | Website Portfolio</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Garamond;
+            background-color: #1e1e2f;
+            color: #ffffff;
+            text-align: center;
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+        }
+        header {
+            background-color: #24243e;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #1b1b32;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #f3971b;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            flex: 1; 
+        }
+        .profile-picture {
+            width: 70%;
+            border-radius: 20px 50px 20px 50px;
+            box-shadow: 5px 5px 15px #f3971b(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .profile-picture:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        .footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: auto; 
+        }
+        .footer a {
+            color: #f3971b;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        .footer-content div {
+            text-align: center;
+        }
+        hr {
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <table border="0" id="home" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table border="0" width="85%" cellpadding="10" cellspacing="0" align="center">
+                        <tr>
+                            <td align="center" valign="middle" height="150">
+                                <h3>
+                                    <marquee behavior="alternate" direction="left" scrollamount="3">
+                                        <font face="Garamond" color="white" size="6">
+                                            Hello! I'm Abbey-Gayle Haughton
+                                        </font>
+                                    </marquee>
+                                </h3>
+                                <h1>
+                                    <marquee behavior="alternate" direction="right" scrollamount="2">
+                                        <font face="Garamond" color="white" size="5">
+                                            Web Developer | Programmer | Creative Thinker
+                                        </font>
+                                    </marquee>
+                                </h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="../Codes/INDEX PAGE.html">Index</a>
+        <a href="../Codes/PROFESSIONAL PAGE.html">Resume</a>
+        <a href="../Codes/PERSONALITY PAGE.html">Personality</a>
+        <a href="../Codes/PERSONAL DEVELOPMENT PAGE.html">Personal Development</a>
+        <a href="../Codes/STORYBOARD PAGE.html">Storyboard</a>
+        <a href="../Codes/Reference PAGE.html">Reference</a>
+        <a href="../Codes/Contact PAGE.html">Contact</a>
+   </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div style="display: flex; align-items: center;">
+                <div style="flex: 1; text-align: center;">
+                    <a href="mailto:abbeygaylehaughton21@gmail.com?subject=ID%20Number%3A%202303830">
+                        <img src="../Assests/picme4.jpg" alt="Abbey-Gayle Haughton" class="profile-picture">
+                    </a>
+                </div>
+                <div style="flex: 2; padding-left: 20px;">
+                    <h1>Future Software Engineer</h1>
+                    <p>
+                        Hello! My name is Abbey-Gayle, and I'm pursuing a Computer Science degree at the University of Technology. I knew I had discovered my love as soon as I wrote my first line of code—a field that blends creativity, problem-solving, and limitless potential. My ultimate objective is to turn my love into my own coding company, where I can innovate and develop solutions that have a real impact. Along with this desire, I hope to become a skilled software engineer who can create robust and efficient systems. In addition, I have a strong interest in web design, which I hope to pursue both professionally and as a gratifying pastime. I'm enthusiastic to keep growing, learning, and making these goals a reality.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>Phone</p>
+                <p>+1876 820 2224</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p>Email</p>
+                <p>abbeygaylehaughton21@gmail.com</p>
+            </div>
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Location</p>
+                <p>13 Third Street</p>
+            </div>
+        </div>
+        <hr>
+        <p>&copy; 2025 Abbey-Gayle Haughton. All rights reserved.</p>
+    </div>
+</body>
+</html>

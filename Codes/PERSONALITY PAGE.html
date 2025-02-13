@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Abbey-Gayle Haughton | Website Portfolio">
+    <title>Abbey-Gayle Haughton | Website Portfolio</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Garamond;
+            background-color: #1e1e2f;
+            color: #ffffff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #24243e;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 30px; 
+        }
+        header h3 {
+            font-size: 2rem;
+            opacity: 0.8;
+        }
+        p {
+            font-size: 1.2rem; 
+            line-height: 1.6; 
+            margin: 20px 0; 
+        }
+        nav {
+            background-color: #1b1b32;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #f3971b;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            flex: 1;
+        }
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 400px;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 300%; 
+            width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        .logo-result {
+            width: 24px; 
+            height: 24px; 
+            vertical-align: middle; 
+            border-radius: 4px; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .logo-result:hover {
+            transform: scale(1.1); 
+        }
+        .skills-table {
+            flex: 2;
+        }
+        .skill-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #f3971b;
+        }
+        .skill-description {
+            margin: 10px 0;
+            font-size: 1.1rem;
+            color: #ddd;
+        }
+        .skill-description ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+        .skill-description ul li {
+            margin: 8px 0;
+        }
+        .progress-bar {
+            width: 100%;
+            background: #292929;
+            height: 10px;
+            border-radius: 5px;
+            position: relative;
+        }
+        .progress {
+            height: 100%;
+            background: #f3971b;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            margin-top: auto;
+        }
+        .footer p {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <table border="0" id="home" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table border="0" width="85%" cellpadding="10" cellspacing="0" align="center">
+                        <tr>
+                            <td align="center" valign="middle" height="150">
+                                <h3>
+                                    <marquee behavior="alternate" direction="left" scrollamount="3">
+                                        <font face="Garamond" color="white" size="6">
+                                            Hello! I'm Abbey-Gayle Haughton
+                                        </font>
+                                    </marquee>
+                                </h3>
+                                <h1>
+                                    <marquee behavior="alternate" direction="right" scrollamount="2">
+                                        <font face="Garamond" color="white" size="5">
+                                            Web Developer | Programmer | Creative Thinker
+                                        </font>
+                                    </marquee>
+                                </h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="../Codes/INDEX PAGE.html">Index</a>
+        <a href="../Codes/PROFESSIONAL PAGE.html">Resume</a>
+        <a href="../Codes/PERSONALITY PAGE.html">Personality</a>
+        <a href="../Codes/PERSONAL DEVELOPMENT PAGE.html">Personal Development</a>
+        <a href="../Codes/STORYBOARD PAGE.html">Storyboard</a>
+        <a href="../Codes/Reference PAGE.html">Reference</a>
+        <a href="../Codes/Contact PAGE.html">Contact</a>
+   </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Personality Traits</h1>
+        <div class="content-wrapper">
+            <!-- Image Container -->
+            <div class="image-container">
+                <img src="../Assests/result3.png" alt="Personality results">
+            </div>
+
+            <!-- Skills Table -->
+            <div class="skills-table">
+                <!-- Skill 1 -->
+                <div class="skill">
+                    <div class="skill-title">Attention to Detail</div>
+                    <div class="skill-description">
+                        <ul>
+                            <li>Attention to detail ensures nothing falls through the cracks.</li>
+                        </ul>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill">
+                    <div class="skill-title">Avoiding Networking</div>
+                    <div class="skill-description">
+                        <ul>
+                            <li>Reserved nature may limit valuable professional connections.</li>
+                        </ul>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 40%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill">
+                    <div class="skill-title">Reliability</div>
+                    <div class="skill-description">
+                        <ul>
+                            <li>Strong work ethic makes you the backbone of any team.</li>
+                        </ul>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill">
+                    <div class="skill-title">Efficient Problem-Solving</div>
+                    <div class="skill-description">
+                        <ul>
+                            <li>Excel at finding realistic solutions to complex issues.</li>
+                        </ul>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill">
+                    <div class="skill-title">Overly Critical</div>
+                    <div class="skill-description">
+                        <ul>
+                            <li>High standards can sometimes lead to harsh judgments of others’ work.</li>
+                        </ul>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="skill">
+                    <div class="skill-title">Resistant to Change</div>
+                    <div class="skill-description">
+                        <ul>
+                            <li>Preference for routine can hinder adaptability in dynamic environments.</li>
+                        </ul>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 33%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Paragraph Below Image and Table -->
+        <p>
+            According to
+            <a href="https://www.16personalities.com/free-personality-test" target="_blank" class="link-icon">
+                <img src="../Assests/logoforsite.png" alt="Logo" class="logo-result">
+            </a> my strength lies in creating order from chaos, methodically organizing information and resources to achieve tangible results. I excel at maintaining systems and following through on commitments, often becoming the go-to person when something needs to be done right. However, my reliance on established methods can sometimes make me resistant to change, even when adaptation might be beneficial.
+        </p>
+        <p>
+            My logical and fact-oriented mindset helps me in analytical tasks, but it can sometimes overshadow the emotional aspects of situations. I sometimes struggle to understand or express feelings—both my own and others’—which can lead to misunderstandings, especially in personal relationships where emotional nuance is crucial. Despite these challenges, my integrity and dependability make me an invaluable friend, partner, and colleague. I take pride in my commitment to my responsibilities and my ability to provide stability in turbulent times—qualities that are both rare and precious. As I navigate life’s complexities, my challenge lies in balancing my need for structure with the flexibility required to thrive in an ever-changing world.
+        </p>
+        <h1>Your Career Path</h1>
+            <p>
+            Inaddition to personality traits it also spoke about future career path, In my professional life, I shine brightest in roles that allow me to apply my exceptional organizational skills and attention to detail. I thrive in structured environments where rules and procedures are clearly defined, and I take pride in maintaining high standards of quality and efficiency. My natural inclination toward order and strong work ethic make me an asset in fields such as accounting, law enforcement, or project management.
+            </p>
+            <p>
+            However, my career journey isn’t without its challenges. My preference for stability might sometimes hold me back from pursuing new opportunities or adapting to changes in my industry. To truly excel, I need to find a balance between leveraging my strengths in established systems and developing the flexibility to embrace innovation when necessary. My path to professional fulfillment lies in finding roles that value my reliability and precision while also providing opportunities for gradual, meaningful growth
+            </p>
+        </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Abbey-Gayle Haughton. All rights reserved.</p>
+    </div>
+</body>
+</html>

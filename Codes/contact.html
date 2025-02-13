@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Abbey-Gayle Haughton | Website Portfolio">
+    <title>Abbey-Gayle Haughton | Website Portfolio</title>
+    
+    <style>
+        body {
+            font-family: Garamond, serif;
+            background-color: #1e1e2f;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #24243e;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #1b1b32;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #f3971b;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            text-align: left;
+        }
+        .footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #f3971b;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ffffff;
+            color: #f3971b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <table border="0" id="home" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table border="0" width="85%" cellpadding="10" cellspacing="0" align="center">
+                        <tr>
+                            <td align="center" valign="middle" height="150">
+                                <h3>
+                                    <marquee behavior="alternate" direction="left" scrollamount="3">
+                                        <font face="Garamond" color="white" size="6">
+                                            Hello! I'm Abbey-Gayle Haughton
+                                        </font>
+                                    </marquee>
+                                </h3>
+                                <h1>
+                                    <marquee behavior="alternate" direction="right" scrollamount="2">
+                                        <font face="Garamond" color="white" size="5">
+                                            Web Developer | Programmer | Creative Thinker
+                                        </font>
+                                    </marquee>
+                                </h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="../Codes/INDEX PAGE.html">Index</a>
+        <a href="../Codes/PROFESSIONAL PAGE.html">Resume</a>
+        <a href="../Codes/PERSONALITY PAGE.html">Personality</a>
+        <a href="../Codes/PERSONAL DEVELOPMENT PAGE.html">Personal Development</a>
+        <a href="../Codes/STORYBOARD PAGE.html">Storyboard</a>
+        <a href="../Codes/Reference PAGE.html">Reference</a>
+        <a href="../Codes/Contact PAGE.html">Contact</a>
+   </nav>
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Abbey-Gayle Haughton. All rights reserved.</p>
+    </div>
+</body>
+</html>
